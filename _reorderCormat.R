@@ -3,4 +3,6 @@ reorder_cormat <- function(cormat){
 dd <- as.dist((1-cormat)/2)
 hc <- hclust(dd)
 cormat <-cormat[hc$order, hc$order]
+
+return(hc$order)
 }
