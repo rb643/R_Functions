@@ -1,6 +1,7 @@
 # function to plot correlation heatmaps from r and p-values using the viridis colourscheme
 # r_file should be a csv file of the r-values in the matrix and the first column containing the names
 # p_file should be a csv file of the p-values in the matrix
+# returns a ggplot figure
 
 plotCorrelationHeatMap <- function (r_file, p_file) {
 
