@@ -1,7 +1,6 @@
 # function to calculate pairwise p-values for a correlation matrix
 # mat should be an n*datapoints matrix or dataframe
 
-
 calcP <- function(mat, ...) {
   mat <- as.matrix(mat)
   n <- ncol(mat)
